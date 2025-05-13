@@ -15,9 +15,6 @@ pc = Pinecone(
         api_key=API_KEY_PINECONE
     )
 
-# Initialize Pinecone
-# pinecone.init(api_key="pcsk_2k7YqV_pK3rNqKsy1MFVnC2C2u2c6QUupm413vdvx9afsD5crQfQJsNrzpPDRYN8PSdyt", environment='pdf-rag')
-
 # Create a dense index with integrated embedding
 index_name = "pdf-rag2"
 # if not pc.has_index(index_name):
